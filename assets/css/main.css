@@ -1,0 +1,43 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: grey;
+
+}
+nav{
+  background-color:  #85c1e9 ;
+}
+header h1{
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: white;
+
+}
+.contenedor1{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+
+}
+.caja1{
+  width: 45%;
+  float: left;
+  background-color: white;
+  margin: 10px;
+
+}
+.caja2{
+  width: 45%;
+  float: left;
+  margin: 10px;
+
+}
+#boton{
+	background: #85c1e9;
+	color: white;
+	border:none;
+	padding: 5px 6px;
+	display: block;
+
+}
