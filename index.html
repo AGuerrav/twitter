@@ -14,7 +14,7 @@
         </div>
       </nav>
     </header>
-    <section>
+    <section id="superContenedor">
       <div class="contenedor1">
         <div class="caja1">
           <h2>Reto de Código</h2>
@@ -22,9 +22,9 @@
 
         </div>
         <div class="caja2">
-          <textarea class="txt" id="think" placeholder="¿Que estas pensando?..."></textarea>
-          <button type="button" id="boton" onclick="add ()">Agregar</button>
-
+          <textarea cols="70%" rows="5"class="txt"  id="think" placeholder="¿Que estas pensando?..." onkeyup="cuenta();"></textarea>
+          <button type="button" id="boton">Agregar</button>
+          <input type="text" id="contador" disabled>
 
         </div>
 

@@ -18,6 +18,7 @@ header h1{
   width: 80%;
   margin: auto;
   padding-top: 50px;
+  overflow: hidden;
 
 }
 .caja1{
@@ -38,6 +39,17 @@ header h1{
 	color: white;
 	border:none;
 	padding: 5px 6px;
-	display: block;
+  clear: both;
+	display: inline-block;
+  top: 40px;
 
+}
+.contenedorPost{
+  display: inline-block;
+  width: 100%;
+  margin-left: 145px;
+}
+#maxCharacters{
+  display: inline-block;
+  margin-left: 370px;
 }
